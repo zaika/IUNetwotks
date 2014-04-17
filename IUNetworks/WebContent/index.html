@@ -1,0 +1,2137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--  <meta name="viewport" content="user-scalable=no">-->
+<meta property="og:image"
+	content="http://iunetworks.am/images/logo_fb.png" />
+<meta property="og:title" content="IU Networks" />
+<meta property="og:description"
+	content="We believe that creating impossible is POSSIBLE. If anything seems impossible we just follow the golden rule: we start with what is necessary to do, then what is possible to do and after a while we find out that we really did impossible..." />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/component.css" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery-detect-mobile.js"></script>
+	<script type="text/javascript" src="js/jquery.appear.js"></script>
+	<script type="text/javascript" src="js/masonry.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript">
+		function initialize() {
+			var myLatlng = new google.maps.LatLng(40.177465, 44.526389);
+			var mapOptions = {
+				zoom : 16,
+				center : myLatlng
+			}
+			var map = new google.maps.Map(
+					document.getElementById('map-canvas'), mapOptions);
+
+			var marker = new google.maps.Marker({
+				position : myLatlng,
+				map : map,
+				title : 'Iunetworks'
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+	<title>IU Networks</title>
+</head>
+
+<body class="cbp-spmenu-push">
+	<div id="leftMenu"
+		class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+		<ul id="rightMobileMenuList">
+			<li><a id="about" href="#aboutUs">about us</a></li>
+			<li><a id="partners" href="#partners">partners</a>
+				<ul>
+					<li><a id="partners_sub1" href="#">Hardware
+							supply/installation</a></li>
+					<li><a id="partners_sub2" href="#">software development</a></li>
+					<li><a id="partners_sub3" href="#">survelience and cabling</a></li>
+				</ul></li>
+			<li><a id="services" href="#services">services</a>
+				<ul>
+					<li><a id="services_sub1" href="#">Hardware
+							supply/installation</a></li>
+					<li><a class="horizontalMenuItem" id="services_sub2" href="#">software
+							development</a></li>
+					<li><a class="horizontalMenuItem" id="services_sub3" href="#">survelience
+							and cabling</a></li>
+
+				</ul></li>
+			<li><a id="portfolio" href="#portfolio">portfolio</a>
+				<ul>
+					<li><a id="portfolio_sub1" href="#">products</a></li>
+					<li><a id="portfolio_sub2" href="#">projects</a></li>
+				</ul></li>
+			<li><a id="contacts" href="#contacts">contacts</a></li>
+			<li><a href="#" id="customerLogin">Customer Login</a></li>
+		</ul>
+	</div>
+	<!-- Start outer-wrapper -->
+	<div id="outer-wrapper">
+		<!-- Start Cover page -->
+		<div class="cover-page clearfix">
+
+			<div class="centerLT" id="main-logo">
+				<img src="images/logo_main.png" width="481" height="160"
+					alt="IU Networks" />
+			</div>
+
+			<div id="showMenuButton" class="cover-menu-cl">
+				<a href="#">Menu</a>
+			</div>
+			<div id="rightMenu" class="cover-menu-open" style="display: none;">
+
+				<div id="rightMenuList" style="height: 300px; padding-top: 140px;">
+					<a name="about" href="#aboutUS">about us</a> <a name="partners"
+						href="#partners">partners</a> <a name="services" href="#services">services</a>
+					<a name="portfolio" href="#portfolio">portfolio</a> <a
+						name="contacts" href="#contacts">contacts</a>
+				</div>
+				<a href="#" id="customerLogin" class="customer-login">Customer
+					Login</a>
+			</div>
+
+			<div class="customer-login-form shadow">
+				<div class="custlog-header clearfix">
+					<img style="float: right; cursor: pointer" id="closeLBox"
+						src="images/close.png" />
+					<div class="fleft">Customer Login</div>
+				</div>
+				<div id="error" class="error">Incorrect username or password</div>
+				<form action="#" id="loginForm" method="post">
+					<div class="form-item clearfix">
+						<label>Username</label> <input type="text" class="input-text" />
+					</div>
+					<div class="form-item clearfix">
+						<label>password</label> <input type="password" class="input-text" />
+					</div>
+					<div class="form-item clearfix">
+						<label>&nbsp;</label> <input type="button" value="Login"
+							id="loginButton" />
+					</div>
+				</form>
+
+			</div>
+
+		</div>
+		<!-- End Cover page -->
+		<!-- Start Top Menu -->
+		<div id="topMenu">
+			<div class="menu-top clearfix">
+				<div class="fright">
+					<ul id="horizontalMenu">
+						<li><span><a id="about" href="#aboutUs">about us</a></span></li>
+						<li><span><a id="partners" href="#partners">partners</a></span>
+							<ul>
+								<li><a id="partners_sub1" href="#">Hardware
+										supply/installation</a></li>
+								<li><a id="partners_sub2" href="#">software development</a></li>
+								<li><a id="partners_sub3" href="#">survelience and
+										cabling</a></li>
+							</ul></li>
+						<li><span><a id="services" href="#services">services</a></span>
+							<ul>
+								<li><a id="services_sub1" href="#">Hardware
+										supply/installation</a></li>
+								<li><a class="horizontalMenuItem" id="services_sub2"
+									href="#">software development</a></li>
+								<li><a class="horizontalMenuItem" id="services_sub3"
+									href="#">survelience and cabling</a></li>
+
+							</ul></li>
+						<li><span><a id="portfolio" href="#portfolio">portfolio</a></span>
+							<ul>
+								<li><a id="portfolio_sub1" href="#">products</a></li>
+								<li><a id="portfolio_sub2" href="#">projects</a></li>
+							</ul></li>
+
+
+						<li><span><a id="contacts" href="#contacts">contacts</a></span></li>
+					</ul>
+				</div>
+				<a href="#"><img src="images/logo_menu.png" width="228"
+					height="54" alt="iu networks" /></a>
+			</div>
+		</div>
+		<!-- End Top Menu -->
+
+		<!-- Start mobile Top Menu-->
+		<div id="topMobileMenu" class="menu-mobile-top clearfix">
+				<div id="showMobileMenuButton" class="cover-mobile-menu-cl">
+					<a href="#">Menu</a>
+				</div>
+				
+				<div>
+					<a href="#" style="position: absolute; right: 20px; top: 20px;"><img
+						src="images/logo_menu.png" width="228" height="54"
+						alt="iu networks" /></a>
+				</div>
+		</div>
+		<!-- End Top Menu -->
+
+
+		<!-- Start About Us -->
+		<div id="aboutDiv" class="inner-page">
+
+			<h2 menuItem="about">Who we are</h2>
+			<div class="clearfix">
+				<div class="fleft widthper60">
+					<p style="font-weight: bold;">We believe that creating
+						impossible is POSSIBLE. If anything seems impossible we just
+						follow the golden rule: we start with what is necessary to do,
+						then what is possible to do and after a while we find out that we
+						really did impossible...</p>
+					<p>We started in March 2008 and our main goal was and is to
+						provide our customers with the best innovative solutions and
+						services to optimize and improve their workflow performance in
+						general. IUnetworks LLC is a company focused on delivery
+						integrated solutions of hardware supply and software development.
+						Applying practical innovation, strategic planning and knowledge
+						management we are delivering tangible results for both private
+						sector and state organizations. We have proved to be successful in
+						delivering projects within specified budget, predefined
+						time-frames and uncompromising quality standards using our unique
+						internal process structure, shared knowledge and open
+						communication patterns.</p>
+				</div>
+				<div class="fleft pdf-links">
+					<a href="images/pdf/file.pdf" class="pdf-link" target="_blank">Company
+						Profile</a> <a href="images/pdf/networks_profile.pdf" class="pdf-link"
+						target="_blank"> Financial Auditor's Report (2012)</a>
+				</div>
+			</div>
+
+			<div class="separator"></div>
+
+			<h2>what we are doing</h2>
+			<div class="what-wedo clearfix">
+
+				<div style="float: right; width: 30%; padding-right: 20px;">
+					<div class="wwd-item">
+						<div class="wwd-subheader red">software development</div>
+						<p>Having a great development team we offer our customers
+							Application Development that includes business intelligence
+							solutions, G2B, CRM, Billing and Payments solutions, Warehouse
+							Management, Content Management solutions, Custom Application
+							Development, IPTV solutions and Diameter server integrated
+							applications.</p>
+					</div>
+				</div>
+				<div style="float: left; width: 30%; padding-left: 20px;">
+					<div class="wwd-item">
+						<div class="wwd-subheader orange">HARDWARE
+							SUPPLY/INSTALLATION</div>
+						<p>Providing full range of IT services, we supply and
+							configure hardware necessary to put developed systems into
+							operation. After completing hardware supply, the team proceeds to
+							installation, configuration and integration of the new hardware
+							into the existing system if any. Software tools and utilities
+							developed by IUNetworks enable us to handle hardware ongoing
+							support and maintenance accurately and in timely manner.</p>
+					</div>
+
+					<div class="wwd-item">
+						<div class="wwd-subheader yellow">survelience and Cabling</div>
+						<p>The video surveillance market is growing constantly and
+							today we offer high quality surveillance products and services
+							including design, installation and support. On top of this we
+							provide structured cabling services beginning with electrical
+							mounting and ending with voice, data and fiber optic cabling.</p>
+					</div>
+				</div>
+
+			</div>
+			<!--<div class="separator"></div> 
+             
+             <h2>how we do it</h2>-->
+
+			<!--<div class="quotes center">
+             	<div>We are</div>
+             	<span class="style1">jumping</span>
+                <span class="style2">cooking</span>
+                <span class="style3">eating</span>
+                <span class="style4">flying</span>
+                <span class="style5">sleeping</span>
+                <span class="style6">drinking</span>
+                <span class="style7">playing</span>
+                <span class="style1">runing</span>
+                <span class="style2">chating</span>
+                <span class="style3">brainstorming</span>
+                <span class="style5">laughing</span>
+                <span class="style4">just complain</span>
+                <span class="style7">brainstorming</span>
+                <span class="style6">brainstorming</span>
+                <span class="style1">jumping</span>
+                <span class="style2">cooking</span>
+                <span class="style3">eating</span>
+                <span class="style4">flying</span>
+                <span class="style5">sleeping</span>
+                <span class="style6">drinking</span>
+                <span class="style7">playing</span>
+                <span class="style1">runing</span>
+                <span class="style2">chating</span>
+                <span class="style3">brainstorming</span>
+                <span class="style5">laughing</span>
+                <span class="style4">just complain</span>
+                <span class="style7">brainstorming</span>
+                <span class="style6">brainstorming</span>
+                <span class="style1">jumping</span>
+                <span class="style2">cooking</span>
+                <span class="style3">eating</span>
+                <span class="style4">flying</span>
+                <span class="style5">sleeping</span>
+                <span class="style6">drinking</span>
+                <span class="style7">playing</span>
+                <span class="style1">runing</span>
+                <span class="style2">chating</span>
+                <span class="style3">brainstorming</span>
+                <span class="style5">laughing</span>
+                <span class="style4">just complain</span>
+                <span class="style7">brainstorming</span>
+                <span class="style6">brainstorming</span>
+                <div class="final">and finally...</div>
+                <div class="style7">THE NEW PRODUCT IS READY</div>
+             </div> -->
+
+			<!--Slider 
+
+             <div id="slider">
+     			<div><img src="images/slides/1.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/2.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/3.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/4.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/5.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/6.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/7.jpg" alt="picture" /></div>
+     			<div><img src="images/slides/8.jpg" alt="picture" /></div>
+                <div><img src="images/slides/9.jpg" alt="picture" /></div>
+                <div><img src="images/slides/10.jpg" alt="picture" /></div>
+                <div><img src="images/slides/11.jpg" alt="picture" /></div>
+                <div><img src="images/slides/12.jpg" alt="picture" /></div>
+               
+                <div><img src="images/slides/15.jpg" alt="picture" /></div>
+                <div><img src="images/slides/16.jpg" alt="picture" /></div>
+                <div><img src="images/slides/17.jpg" alt="picture" /></div>
+                <div><img src="images/slides/18.jpg" alt="picture" /></div>
+                <div><img src="images/slides/5.jpg" alt="picture" /></div>
+                <div><img src="images/slides/7.jpg" alt="picture" /></div>
+                
+  
+     		</div>
+			-->
+		</div>
+		<!-- End About Us -->
+		<!-- Start Partners -->
+		<div id="partnersDiv" class="inner-page grey-bord rel ">
+			<h2 menuItem="partners">Our Partners</h2>
+			<div id="partners_sub1_contentDiv"
+				class="clearfix partners subContent">
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/ericson.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Ericsson is a world-leading
+							provider of telecommunications equipment and services to mobile
+							and fixed network operators ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/ericson.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Ericsson is a world-leading
+									provider of telecommunications equipment and services to mobile
+									and fixed network operators. Over 1,000 networks in more than
+									180 countries use Ericsson’s network equipment, and more than
+									40 percent of the world's mobile traffic passes through
+									Ericsson networks. Ericsson is one of the few companies
+									worldwide that can offer end-to-end solutions for all major
+									mobile communication standards. Ericsson’s networks, telecom
+									services and multimedia solutions make it easier for people,
+									across the world, to communicate.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Billing & Revenue Management</li>
+									<li>Broadband Devices</li>
+									<li>CDMA</li>
+									<li>Cables and Interconnect Products</li>
+									<li>Fixed Access</li>
+									<li>Fixed Switching</li>
+									<li>IP Networking</li>
+									<li>IMS</li>
+									<li>Microwave Networks</li>
+									<li>Mobile Switching</li>
+									<li>National Security & Public Safety Products</li>
+									<li>Network Management Products</li>
+									<li>Optical Transport</li>
+									<li>Packet Core</li>
+									<li>Power Modules</li>
+									<li>Products from Telcordia and more</li>
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.ericsson.com/" class="more">more</a>
+					</div>
+
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/cisco.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">At Cisco (NASDAQ: CSCO) customers
+							come first and an integral part of their DNA is creating
+							long-lasting customer partnerships and working with ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/cisco.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">At Cisco (NASDAQ: CSCO)
+									customers come first and an integral part of their DNA is
+									creating long-lasting customer partnerships and working with
+									them to identify their needs and provide solutions that support
+									their success. Cisco has shaped the future of the Internet by
+									creating unprecedented value and opportunity for the customers,
+									employees, investors and ecosystem partners and has become the
+									worldwide leader in networking - transforming how people
+									connect, communicate and collaborate.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Routers</li>
+									<li>Switches</li>
+									<li>Physical Security and Building Systems</li>
+									<li>Optical Networking</li>
+									<li>Networking Software (IOS & NX-OS)</li>
+									<li>Interfaces and Modules</li>
+									<li>Unified Computing and Servers</li>
+									<li>Storage Networking</li>
+									<li>Data Center Switches</li>
+									<li>Blade Switches</li>
+									<li>TelePresence</li>
+									<li>Video and Content Delivery</li>
+									<li>Voice and Unified Communications and more</li>
+
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.cisco.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/hp.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">HP is a technology company that
+							operates in more than 170 countries around the world. HP applies
+							new thinking and ideas to create ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/hp.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">HP is a technology company that
+									operates in more than 170 countries around the world. HP
+									applies new thinking and ideas to create more simple, valuable
+									and trusted experiences with technology, continuously improving
+									the way the customers live and work. HP provides infrastructure
+									and business offerings that span from handheld devices to some
+									of the world's most powerful supercomputer installations. HP
+									offers consumers a wide range of products and services from
+									digital photography to digital entertainment and from computing
+									to home printing.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Computers</li>
+									<li>Laptops Desktops</li>
+									<li>Tablet</li>
+									<li>Workstations</li>
+									<li>Computer Monitors</li>
+									<li>Printer</li>
+									<li>Toner</li>
+									<li>Ink Cartridges</li>
+									<li>Enterprise Security</li>
+									<li>Networking</li>
+									<li>Servers</li>
+									<li>Storage and more</li>
+
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.hp.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/apc.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">American Power Conversion provides
+							protection against many of the primary causes of data loss,
+							hardware damage and downtime ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/apc.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">American Power Conversion
+									provides protection against many of the primary causes of data
+									loss, hardware damage and downtime. Founded in 1981, APC is a
+									leading provider of global, end-to-end AC and DC-based back-up
+									power products and services, which include surge suppressors,
+									uninterruptible power supplies (UPS), power conditioning
+									equipment, power management software, and DC power systems as
+									well as precision cooling equipment, and professional and
+									consulting services for Nonstop Networking™.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Rack Solutions</li>
+									<li>PC/Workstation</li>
+									<li>Servers</li>
+									<li>Storage Array</li>
+									<li>Voip/Telecom</li>
+									<li>Networking Devices</li>
+									<li>Other Devices</li>
+									<li>Fax Machine/Printer</li>
+									<li>UPS Battery & Upgrade Selector</li>
+									<li>Service Selector</li>
+									<li>Network Accessories and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.apc.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/motorola.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">At Motorola Mobility, they’re
+							breaking through the barriers that separate people from the
+							things they love. They’re designing technology ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/motorola.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">At Motorola Mobility, they’re
+									breaking through the barriers that separate people from the
+									things they love. They’re designing technology that connects
+									seamlessly so consumers have the best content at their
+									fingertips, every second of every day. TV, talk, text, email
+									and web surfing – they’re putting people at the center of it
+									all. It’s what they call a Motorola Powered future and they’re
+									making the devices that do more, so people can do more.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Converged mobile devices, including smartphones,
+										mobile computing devices and tablets</li>
+									<li>Software and services, including MotoCast, Smart
+										Actions and Medios</li>
+									<li>Digital entertainment devices</li>
+									<li>Digital and IP video solutions</li>
+									<li>Passive Optical Networking solutions</li>
+									<li>Bluetooth&reg; accessories</li>
+									<li>Cable modems and gateways</li>
+									<li>Video distribution systems</li>
+									<li>GPS fitness tracker and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="www.motorola.com/mobility" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/oracle.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Oracle is simplifying IT—helping
+							customers unleash innovation and overcome complexity. Oracle’s
+							complete portfolio of servers ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/oracle.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Oracle is simplifying IT—helping
+									customers unleash innovation and overcome complexity. Oracle’s
+									complete portfolio of servers, storage, software, and
+									networking products are engineered to work together to deliver
+									record-breaking performance, simplified management, and
+									cost-saving efficiencies. For customers needing modular
+									solutions, Oracle's open architecture and multiple
+									operating-system options also give customers unmatched benefits
+									from best-of-breed products in every layer of the stack,
+									allowing them to build the best infrastructure for their
+									enterprise.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Database</li>
+									<li>Middleware</li>
+									<li>Applications</li>
+									<li>Server and Storage Systems</li>
+									<li>Industrial Solutions and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="www.oracle.com" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/fujikura.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Fujikura is one of the world's
+							leading manufacturers of fiber optic cables and equipment for
+							installation, measurement and testing ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/fujikura.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Fujikura is one of the world's
+									leading manufacturers of fiber optic cables and equipment for
+									installation, measurement and testing. The company offers a
+									diverse product range from its core business of electric wire
+									and cables to fiber optic and related products to electronic
+									materials and components. Fujikura manufacture a wide range of
+									silica based coherent image fibers for medical and industrial
+									endoscopy. The company has become the world's leading supplier
+									to telecommunication companies around the globe.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Connectivity and Cleaning Solutions</li>
+									<li>Fiber Optic Components</li>
+									<li>Fusion Splicer Accessories</li>
+									<li>Optical Fiber</li>
+									<li>Optical Transceivers and Transponders</li>
+									<li>Specialty Fiber and much more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.fujikura.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/axis.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Axis is the market leader in
+							network video and a driving force behind the shift from analog to
+							digital video surveillance, which paves the way ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/axis.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Axis is the market leader in
+									network video and a driving force behind the shift from analog
+									to digital video surveillance, which paves the way for a more
+									secure, smarter and safer world. Offering network video
+									solutions for professional installations, Axis’ products and
+									solutions are based on an innovative, open technology platform.
+								</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Network video</li>
+									<li>Network cameras</li>
+									<li>Video encoders</li>
+									<li>Accessories</li>
+									<li>Video management software</li>
+									<li>Camera applications</li>
+									<li>Industrial solutions and more</li>
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.axis.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/brocade.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Founded in 1995, Brocade is an
+							industry leader in providing reliable, high-performance network
+							solutions that help the world’s leading ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/brocade.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Founded in 1995, Brocade is an
+									industry leader in providing reliable, high-performance network
+									solutions that help the world’s leading organizations
+									transition smoothly to a virtualized world where applications
+									and information reside anywhere. Today, Brocade is extending
+									its proven data center expertise across the entire network with
+									future-proofed solutions built for consolidation, network
+									convergence, virtualization, and cloud computing.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Switches</li>
+									<li>Routers</li>
+									<li>Application Delivery Controllers</li>
+									<li>Wireless LAN Access Points and Controllers</li>
+									<li>SAN Fabric Applications</li>
+									<li>SAN Transceivers</li>
+									<li>Management Software Adapters</li>
+									<li>Security Appliances</li>
+									<li>Data security solutions and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.brocade.com/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center"
+							src="images/partners-bw/prysmian_group.jpg" width="238"
+							height="110" alt="partner-logo" />
+						<div class="partner-text">A leading player in the industry
+							of high-technology cables and systems for energy and
+							telecommunications, Prysmian Group is a truly global ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center"
+									src="images/partners/prysmian_group.jpg" width="238"
+									height="110" alt="partner-logo" />
+								<div class="partner-text">A leading player in the industry
+									of high-technology cables and systems for energy and
+									telecommunications, Prysmian Group is a truly global company.
+									With its strong position in the market segments characterised
+									by the highest added value, the Group is active in the
+									development, design, manufacturing, supply and installation of
+									a wide range of cables for the most diverse applications in the
+									energy and telecommunication sectors.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Power Transmission</li>
+									<li>High Voltage Systems</li>
+									<li>MLV Accessories and Components</li>
+									<li>P-Laser</li>
+									<li>Automotive Cables</li>
+									<li>Rolling Stock Cables</li>
+									<li>Marine Cables</li>
+									<li>Cranes & Mobile Equipment Cables</li>
+									<li>Mining & Tunnelling Cables</li>
+									<li>Offshore Cables</li>
+									<li>Plant & Petrochem Cables</li>
+									<li>Optical Fibres</li>
+									<li>Optical Cable</li>
+									<li>Communications Copper Cables</li>
+									<li>OPGW System and more</li>
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://prysmiangroup.com/en/index.html"
+							class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/tyan.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Products from TYAN feature design
+							enhancements specifically developed for enterprise computer room
+							and data center environments ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/tyan.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Products from TYAN feature
+									design enhancements specifically developed for enterprise
+									computer room and data center environments. TYAN enables its
+									customers to be technology leaders by providing scalable,
+									highly-integrated, reliable platforms for a wide range of
+									applications such as high-end server and workstation usage in
+									markets such as CAD, DCC, E&P and HPC.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Server Motherboards</li>
+									<li>Server Barebones</li>
+									<li>Server Chassis</li>
+									<li>TYAN Solutions</li>
+									<li>Accessories</li>
+									<li>Server Adapters and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="#" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/well_tech.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Welltech Technology Co., Ltd. was
+							founded in 1988 in Taipei, Taiwan with the aim of linking people
+							and the technologies, and has been ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/well_tech.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Welltech Technology Co., Ltd.
+									was founded in 1988 in Taipei, Taiwan with the aim of linking
+									people and the technologies, and has been an integral part of
+									the community for over a decade. The company is committed to
+									promoting better Communications and Networking solutions to the
+									customers through their strong knowledge and expertise in Voice
+									over IP.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>IP-PBX</li>
+									<li>VoIP Gateway</li>
+									<li>Trunking Gateway</li>
+									<li>Billing System</li>
+									<li>IP Voice Mail</li>
+									<li>SIP IVR Server</li>
+									<li>IP Phone</li>
+									<li>Wireless VoIP Product</li>
+									<li>SIP Proxy Server</li>
+									<li>Session Boarder Controller</li>
+									<li>IP Recorder – Lawful Interception ( LI )</li>
+									<li>Voice Service Solution and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.welltech.com" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/planet.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Planet Technology Corporation is a
+							leading global provider of IP-based networking products and
+							solutions for small-to-medium-sized businesses ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/planet.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Planet Technology Corporation is
+									a leading global provider of IP-based networking products and
+									solutions for small-to-medium-sized businesses, enterprises,
+									and SOHO markets. PLANET designs, deploys and delivers
+									innovative IP solutions with converged data, voice, and video
+									deployment over the wide range of networking technologies.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>LAN Switches</li>
+									<li>Passive Optical Network</li>
+									<li>Power over Ethernet</li>
+									<li>Media Conversion</li>
+									<li>Broadband Communication</li>
+									<li>Wireless LAN</li>
+									<li>IP Telephony</li>
+									<li>IP Surveillance</li>
+									<li>Network Security</li>
+									<li>Network Peripheral</li>
+									<li>Industrial Ethernet</li>
+									<li>Unified Office Gateway and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.planet.com.tw" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/nex1.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">NEX1 offers a wide-range of
+							solutions that span from the LAN cable connectors, with the
+							industry-leading Keystone jack, all the way to optical ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/nex1.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">NEX1 offers a wide-range of
+									solutions that span from the LAN cable connectors, with the
+									industry-leading Keystone jack, all the way to optical cables
+									of the backbone wiring for enterprise local area network (LAN)
+									infrastructures. NEX1's customer-centric approach focuses on
+									customized premise cabling and services for users, wherever
+									they are. This any time, anywhere access is ensured by
+									structured cabling planning and network infrastructures that
+									guarantee availability and optimize traffic to meet a broad
+									spectrum of requirements.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>LAN cables</li>
+									<li>LAN connectors</li>
+									<li>Telecom accessories</li>
+									<li>Network products and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="www.nex1.com.tw" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/everfocus.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">EverFocus Electronics Corp. is a
+							leading manufacturer of CCTV cameras, DVRs, access control
+							systems and other CCTV and ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/everfocus.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">EverFocus Electronics Corp. is a
+									leading manufacturer of CCTV cameras, DVRs, access control
+									systems and other CCTV and access control peripherals.
+									Headquartered in Taipei, Taiwan, EverFocus has offices located
+									around the world including the U.S.A (California & New York),
+									Germany, China and Japan. EverFocus offers quality products,
+									superior technical support, project design consultation, a
+									certified dealer program, educational trainings and many more
+									to meet the demands of our customers worldwide.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>HD CCTV</li>
+									<li>Digital Video Recorders</li>
+									<li>Cameras</li>
+									<li>PTZ Cameras</li>
+									<li>Monitors</li>
+									<li>Accessories and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.everfocus.com" class="more">more</a>
+					</div>
+				</div>
+
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/iptec.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">The IPtec portfolio of products
+							enables convergence of multiple data services over IP networks
+							...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/iptec.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">The IPtec portfolio of products
+									enables convergence of multiple data services over IP networks.
+									The IPtec products are designed to closely match market and
+									application requirements, such as low latency, high-definition
+									video quality, robust data transmission, wide range of I/O
+									options, and compactness. This makes their products ideally
+									suited for converged data services in a multitude of
+									applications.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Power tools for Professionals</li>
+									<li>Security Systems</li>
+									<li>Energy storage</li>
+									<li>Ventilation & air-conditioning</li>
+									<li>Combined heat & power units and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="www.iptec-inc.com" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/bosch.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">The Bosch Group is a leading
+							global supplier of technology and services, active in the fields
+							of automotive technology, energy and building ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/bosch.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">The Bosch Group is a leading
+									global supplier of technology and services, active in the
+									fields of automotive technology, energy and building
+									technology, industrial technology, and consumer goods. Bosch's
+									core products are automotive components (including brakes,
+									controls, electrical drives, electronics, fuel systems,
+									generators), industrial products (including drives and
+									controls, packaging technology and consumer goods) and building
+									products (including household appliances, power tools, security
+									systems and thermotechnology).</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Power tools for Professionals</li>
+									<li>Security Systems</li>
+									<li>Energy storage</li>
+									<li>Ventilation & air-conditioning</li>
+									<li>Combined heat & power units and more</li>
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.bosch.com" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/polycom.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Polycom RealPresence Video
+							Solutions – Ranging from video collaboration software for mobile
+							devices, laptops and desktops to ...</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/polycom.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Polycom RealPresence Video
+									Solutions – Ranging from video collaboration software for
+									mobile devices, laptops and desktops to group video systems and
+									immersive theaters, Polycom RealPresence video solutions extend
+									the collaborative power of visual communication to anywhere you
+									work, and makes it simple for you to meet face-to-face with
+									colleagues, partners, and customers, using any system or device
+									you choose.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>HD Telepresence & Video Conferencing</li>
+									<li>RealPresence Platform</li>
+									<li>Conferencing Solutions</li>
+									<li>Desktop Solutions</li>
+									<li>Applications</li>
+									<li>Accessories and much more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.bosch.com" class="more">more</a>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div id="partners_sub2_contentDiv"
+				class="clearfix partners subContent" style="display: none">
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/ucom.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Ucom is one of the leading
+							providers of telecommunication services that built the biggest
+							new generation fiber-optic network in Armenia.</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info" style="width: 100%">
+								<img class="block center" src="images/partners/ucom.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Ucom is one of the leading
+									providers of telecommunication services that built the biggest
+									new generation fiber-optic network in Armenia. Ucom has always
+									put an emphasis on creating a strong network to make it
+									possible for each and every Armenian to benefit the best
+									quality service with an affordable price. The fact of being an
+									Armenian company helps them to understand and analyze the
+									growing potential of the Armenian market and meet its
+									requirements with the best possible solutions like IP
+									Television (U!TV), Network Solutions (U!Net) and Communication
+									Solutions (U!Phone).</div>
+							</div>
+
+						</div>
+						<a target="_blank" href="http://www.ucom.am/" class="more">more</a>
+					</div>
+				</div>
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/pek.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">RA State Revenue Committee by the
+							Government is a republican body of executive authority, which in
+							line with its competences provides for State budget revenue
+							collection and tax and customs administration.</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info" style="width: 100%">
+								<img class="block center" src="images/partners/pek.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">RA State Revenue Committee by
+									the Government is a republican body of executive authority,
+									which in line with its competences provides for State budget
+									revenue collection and tax and customs administration. Within
+									the framework of the jurisdiction defined on ”Tax Service”, the
+									tax body is entitled to control, prevention and detection of
+									violations of the law, as well as training of taxpayers and tax
+									officers. The mission of the tax body is to ensure to the RA
+									state budget the revenues controlled by the tax body via full
+									and equal application of tax legislation and efficient use of
+									available resources</div>
+							</div>
+
+						</div>
+						<a target="_blank" href="http://www.taxservice.am/" class="more">more</a>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div id="partners_sub3_contentDiv"
+				class="clearfix partners subContent" style="display: none">
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/axis.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Axis is the market leader in
+							network video and a driving force behind the shift from analog to
+							digital video surveillance, which paves the way for a more
+							secure, smarter and safer world. Offering network video solutions
+							for professional installations, Axis’ products and solutions are
+							based on an innovative, open technology platform.</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/axis.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Axis is the market leader in
+									network video and a driving force behind the shift from analog
+									to digital video surveillance, which paves the way for a more
+									secure, smarter and safer world. Offering network video
+									solutions for professional installations, Axis’ products and
+									solutions are based on an innovative, open technology platform.
+								</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>Network video</li>
+									<li>Network cameras</li>
+									<li>Video encoders</li>
+									<li>Accessories</li>
+									<li>Video management software</li>
+									<li>Camera applications</li>
+									<li>Industrial solutions and more</li>
+
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.axis.com/" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/everfocus.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">EverFocus Electronics Corp. is a
+							leading manufacturer of CCTV cameras, DVRs, access control
+							systems and other CCTV and access control peripherals.
+							Headquartered in Taipei, Taiwan, EverFocus has offices located
+							around the world including the U.S.A (California & New York),
+							Germany, China and Japan.</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/everfocus.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">EverFocus Electronics Corp. is a
+									leading manufacturer of CCTV cameras, DVRs, access control
+									systems and other CCTV and access control peripherals.
+									Headquartered in Taipei, Taiwan, EverFocus has offices located
+									around the world including the U.S.A (California & New York),
+									Germany, China and Japan. EverFocus offers quality products,
+									superior technical support, project design consultation, a
+									certified dealer program, educational trainings and many more
+									to meet the demands of our customers worldwide.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>HD CCTV</li>
+									<li>Digital Video Recorders</li>
+									<li>Cameras</li>
+									<li>PTZ Cameras</li>
+									<li>Monitors</li>
+									<li>Accessories and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.everfocus.com" class="more">more</a>
+					</div>
+				</div>
+
+				<div class="partner-item shadow">
+					<div class="smallContent">
+						<img class="block center" src="images/partners-bw/planet.jpg"
+							width="238" height="110" alt="partner-logo" />
+						<div class="partner-text">Planet Technology Corporation is a
+							leading global provider of IP-based networking products and
+							solutions for small-to-medium-sized businesses, enterprises, and
+							SOHO markets.</div>
+					</div>
+					<div class="largContent" style="display: none;">
+						<div class="clearfix">
+							<div class="pl-info">
+								<img class="block center" src="images/partners/planet.jpg"
+									width="238" height="110" alt="partner-logo" />
+								<div class="partner-text">Planet Technology Corporation is
+									a leading global provider of IP-based networking products and
+									solutions for small-to-medium-sized businesses, enterprises,
+									and SOHO markets. PLANET designs, deploys and delivers
+									innovative IP solutions with converged data, voice, and video
+									deployment over the wide range of networking technologies.</div>
+							</div>
+							<div class="pl-info paddingL20">
+								<h4>Products and Services</h4>
+								<ul>
+									<li>LAN Switches</li>
+									<li>Passive Optical Network</li>
+									<li>Power over Ethernet</li>
+									<li>Media Conversion</li>
+									<li>Broadband Communication</li>
+									<li>Wireless LAN</li>
+									<li>IP Telephony</li>
+									<li>IP Surveillance</li>
+									<li>Network Security</li>
+									<li>Network Peripheral</li>
+									<li>Industrial Ethernet</li>
+									<li>Unified Office Gateway and more</li>
+								</ul>
+							</div>
+						</div>
+						<a target="_blank" href="http://www.planet.com.tw" class="more">more</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="submenu-vertical">
+				<a id="partners_sub1_vertical" href="#" class="hard current"></a> <a
+					id="partners_sub2_vertical" href="#" class="soft"></a> <a
+					id="partners_sub3_vertical" href="#" class="surv"></a>
+			</div>
+		</div>
+		<!-- End Partners -->
+
+		<!-- Start hardware -->
+		<div id="servicesDiv" class="inner-page white-bord rel">
+			<h2 menuItem="services">Services</h2>
+			<div id="services_sub1_contentDiv"
+				class="widthper80 clearfix subContent">
+				<h3 class="orange">HARDWARE SUPPLY AND INSTALLATION</h3>
+				<p>Providing full range of IT services, we supply and configure
+					hardware necessary to put developed systems into operation. After
+					completing hardware supply, the team proceeds to installation,
+					configuration and integration of the new hardware into the existing
+					system if any. Software tools and utilities developed by IUnetworks
+					enable us to handle hardware ongoing support and maintenance
+					accurately and in timely manner. Our highly qualified engineers
+					evaluate hardware specification taking into consideration network
+					topology, number of users, memory demands, security requirements,
+					transaction capacity and other technical aspects. Individual
+					approach to each customer and attention to every detail of the
+					technical requirements enables us to provide an optimal solution to
+					meet customer needs and ensure efficient performance of any system.</p>
+				<p>IUnetworks LLC supplies hardware from all the leading
+					manufacturers including HP, Ericsson, Cisco, Motorola, APC,
+					Oracle/Sun, Brocade, etc. Alongside with hardware supply IUnetworks
+					LLC provides installation, configuration and support services.</p>
+				<div class="service-item">
+					<h3>Installation and Configuration</h3>
+					<p>IUnetworks LLC offers premium hardware installation and
+						configuration services performed by highly qualified and certified
+						professionals in the field. The partnerships we have with industry
+						leading manufacturers and vendors in hardware enable us to offer
+						the most reliable hardware on the market, and our hardware
+						installation services guarantee that your equipment will function
+						without any issue.</p>
+					Our installation and configuration services include:
+					<ul>
+						<li>LAN/WAN networks implementation</li>
+						<li>Storage-centers design and configuration</li>
+						<li>Data-center design and optimization</li>
+					</ul>
+				</div>
+				<div class="minh300 fleft">
+					<img class="img-arrow-circle" src="images/arrow_circle1.png"
+						width="77" height="77" alt="arrow" />
+				</div>
+				<div class="service-item">
+					<h3>Support Service</h3>
+					<p>IUnetworks LLC offers consulting services to understand your
+						needs, as well as provide assistance in offering a complete
+						solution to meet your business goals, in compliance with the
+						available budget resources specified. If you already know the
+						hardware you need with its exact part-number, we will provide you
+						with a competitive quote in a short timeline. On top of this our
+						goal is to provide high class after-sales support, including:</p>
+					<ul>
+						<li>Centralized Security</li>
+						<li>Virus and Spyware Removal</li>
+						<li>Spam and Virus Protection</li>
+						<li>Data Protection</li>
+						<li>Patch management</li>
+						<li>File and Print Sharing</li>
+						<li>Firewalls</li>
+						<li>Data Backup</li>
+					</ul>
+				</div>
+			</div>
+			<div id="services_sub2_contentDiv"
+				class="widthper80 clearfix subContent" style="display: none">
+				<p>Having a great development team we offer our customers
+					software development solutions based on 4 core principles: high
+					level of visibility, effective planning, deep analysis, and
+					incremental releases. We have successfully applied recognized
+					standards to develop quality assurance programs for clients in a
+					wide variety of industries.</p>
+
+				<div class="clearfix software">
+					<div class="service-item">
+						<h3>Application Development</h3>
+						<p>Application Development that includes business intelligence
+							solutions, G2B, CRM, Billing and Payments solutions, Warehouse
+							Management, Content Management solutions, Custom Application
+							Development, IPTV solutions and Diameter server integrated
+							applications.</p>
+					</div>
+					<div class="minh300 fleft">
+						<img class="img-arrow-circle" src="images/arrow_circle1.png"
+							width="77" height="77" alt="arrow" />
+					</div>
+					<div class="service-item">
+						<h3>Product Development</h3>
+						<p>Software product development demands a unique focus on
+							upfront design and architecture to create “product platforms”,
+							that’s why we offer Product Development service to offer core
+							functionality and provide configurability for a wide range of
+							usage scenarios, including the flexibility needed to sustain
+							multiple product generations.</p>
+					</div>
+					<div class="minh300 fleft">
+						<img class="img-arrow-circle" src="images/arrow_circle1.png"
+							width="77" height="77" alt="arrow" />
+					</div>
+
+					<div class="service-item">
+						<h3>Quality Assurance Methodology</h3>
+						<p>The QA services offered by IUnetworks is designed to
+							address the challenges faced in software testing and covers all
+							phases of QA activities for the successful testing and release of
+							the software product. We incorporate the concept of quality in
+							every aspect of project life cycle - from analysis, design,
+							development and implementation up to maintenance using
+							appropriate techniques including automated, manual, performance
+							and exploratory testing.</p>
+					</div>
+
+				</div>
+
+				<img src="images/chart.png" width="999" height="412" alt="chart"
+					class="chart" />
+			</div>
+			<div id="services_sub3_contentDiv"
+				class="widthper80 clearfix subContent" style="display: none">
+				<h3 class="orange">CABLING &amp; SURVEILLANCE SERVICE</h3>
+				<p>The video surveillance market is growing constantly and today
+					we offer high quality surveillance products and services including
+					design, installation and support. On top of this we provide
+					structuredcabling services beginning with electrical mounting and
+					ending with voice, data and fiber optic cabling as well providing a
+					full-service network and cabling.</p>
+				<div class="service-item">
+					<h3>IP surveillance</h3>
+					<p>The transition to network video is a reality as customers
+						take advantage of flexible, industry standard systems for security
+						and video surveillance. As security management over the IP network
+						expands and intelligence capabilities move out to network cameras,
+						systems can scale much more easily. This move to open systems
+						empowers a much more productive and cost-effective means of
+						surveillance than was ever possible.</p>
+					<p>IUnetworks offers high quality surveillance products and
+						services represented by Axis, EverFocus and Planet. IP
+						surveillance products and services offered by IUnetworks provide a
+						variety of features that can prove critically important and useful
+						to your business:</p>
+					<ul>
+						<li>Superior image quality</li>
+						<li>Remote accessibility</li>
+						<li>Easy and future-proof integration</li>
+						<li>Cost-effectiveness</li>
+						<li>Distributed intelligence</li>
+					</ul>
+				</div>
+				<div class="minh300 fleft">
+					<img class="img-arrow-circle" src="images/arrow_circle1.png"
+						width="77" height="77" alt="arrow" />
+				</div>
+				<div class="service-item">
+					<h3>Cabling service</h3>
+					<p>IUnetworks provides and maintains telephone and data
+						outlets, cabling and infrastructure to support the following
+						systems and services: network, telephony, electricity, security
+						and etc. It provides design and implementation of work services
+						for large scale cabling projects, such as in new building projects
+						and building refurbishments. With our expertise and experienced
+						specialist we provide our customers with structured cabling
+						installation that includes:</p>
+					<ul>
+						<li>Architectural structure of the building, where the
+							cabling installation should be;</li>
+						<li>Provision of cable and connection products</li>
+						<li>Installation of copper and fiber optic cable</li>
+						<li>Installation of wiring racks, cabinets and patch panels</li>
+						<li>Configuration of an already installed system</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="submenu-vertical">
+				<a id="services_sub1_vertical" href="#" class="hard current"></a> <a
+					id="services_sub2_vertical" href="#" class="soft"></a> <a
+					id="services_sub3_vertical" href="#" class="surv"></a>
+			</div>
+		</div>
+		<!-- End Services -->
+
+
+
+
+
+		<!-- Start portfolio -->
+		<div id="portfolioDiv" class="inner-page grey-bord rel">
+			<h2 menuItem="portfolio">Portfolio</h2>
+			<div id="portfolio_sub1_contentDiv"
+				class="widthper100 clearfix subContent">
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small red-bg">
+						<a href="#"> <span class="header">T5/IPTV + OTT</span><span>HIGHLY
+								SCALABLE IPTV SOLUTION</span>
+						</a>
+					</div>
+					<div class="largContent large-red" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								T5/IPTV + OTT-<span class="fontsize20">HIGHLY SCALABLE
+									IPTV SOLUTION</span>
+							</div>
+
+							<p class="fontsize14 paddingTB30">Combining digital content
+								delivery and flexible sales environment IUnetworks presents T5 -
+								an innovative all-in-one IPTV/OTT solution that enables service
+								providers to offer advanced, cost-effective, easy-to-manage and
+								highly scalable IPTV service. T5 solution also can be installed
+								in a variety of sectors like hotels, resorts, vessels,
+								hospitals, colleges and student’s campus to provide this
+								institution with exceptional modernity by offering a stirring
+								IPTV service. Thanks to its scalability and emerging
+								technologies, T5 solution is a good choice both for SMEs and
+								large enterprises as well.</p>
+							<p>To meet the providers needs, T5 offers IPTV solution with
+								the following core features:</p>
+							<ul class="portfolio">
+								<li>Multiscreen support (Android and iOS based phones,
+									tablets, IP STB, PCs)</li>
+								<li>Multilingual support</li>
+								<li>Video-On-Demand, time shift and catch-up</li>
+								<li>Pre/Post paid billing integration</li>
+								<li>IP STB availability on Motorola and Android based
+									devices</li>
+
+							</ul>
+							<p>In addition to core features T5 offers a number of
+								up-to-date widgets to make your IPTV service modern, more
+								interesting and more entertaining.</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small blue1-bg">
+						<a href="#"> <span class="header">BCRM</span> <span
+							style="size: 22px; text-transform: lowercase"></span> <span>BILLING
+								AND customer relationship management</span>
+						</a>
+					</div>
+					<div class="largContent large-blue1" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								BCRM - <span class="fontsize20">BILLING AND CUSTOMER
+									RELATIONSHIP MANAGEMENT</span>
+							</div>
+							<div class="large-cont-scroll">
+								<p class="fontsize14 paddingTB30">Billing and Customer
+									Relationship Management System (BCRM) is an efficient
+									enterprise-level solution that was implemented for Ucom, one of
+									the leading providers of telecommunication services in Armenia,
+									contains a number of key components and additional modules that
+									enables service providers to manage subscribers and
+									transactions quickly and efficiently with no limitations. Each
+									of these components work to manage all customers’ accounts and
+									carry out billing tracking automatically based on their
+									personal ID number.</p>
+								<div class="bold fontsize14">Core components</div>
+								<ul class="portfolio">
+									<li>Convergent billing</li>
+									<li>User and role management</li>
+									<li>Customer profile management</li>
+									<li>Services and tariff management</li>
+									<li>Business flow management</li>
+									<li>Assets management</li>
+									<li>Integration and full automation of service provision
+										processes</li>
+								</ul>
+								<div class="bold fontsize14">Integrated modules</div>
+								<ul class="portfolio">
+									<li>Customer care and technical support
+										<li>Reporting based on open source BI solution (URL<a
+											href="http://pentaho.com/"> http://pentaho.com</a>
+									</li>
+										<li>Supporting modules (phone CDR analyzer, VOD CDR
+											analyzer, EPG crawler, etc…)</li>
+										<li>Call center monitoring</li>
+										<li>Payments online processing module (via payment
+											terminals and card processing)</li>
+										<li>Asterisk PBX customization for customer voice self
+											service</li>
+										<li>WEB portal for customer self care</li>
+										<li>Address and Network topology management</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small green-bg">
+						<a href="#"> <span class="header">TAX PAYER3</span><span>INTEGRATED
+								TAX MANAGEMENT SYSTEM</span>
+						</a>
+					</div>
+					<div class="largContent large-green" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								TAX PAYER3 - <span class="fontsize20">INTEGRATED TAX
+									MANAGEMENT SYSTEM</span>
+							</div>
+							<div class="large-cont-scroll">
+								<p class="fontsize14 paddingTB30">"Taxpayer 3" is a G2B
+									product that ordered by RA State Revenue Committee to integrate
+									online financial operations of taxpayers and tax management
+									system of SRC to automate and support core business processes.
+									The system represents a web based, open source application with
+									a detailed analytical capability and business processes adopted
+									by SRC including registration and management of taxpayers,
+									electronic tax return submission, electronic invoices,
+									taxpayers' risks evaluation system, etc.</p>
+								<div class="bold fontsize14">Key features</div>
+								<ul class="portfolio">
+									<li>Centralized database and file storage</li>
+									<li>Flexible and extendable software and hardware
+										architecture</li>
+									<li>Enhanced security system</li>
+									<li>Services provision to 3rd parties (gov. and non gov.
+										bodies)</li>
+								</ul>
+								<div class="bold fontsize14">Main modules</div>
+								<ul class="portfolio">
+									<li>Centralized registration and management of taxpayers
+										and their related objects</li>
+									<li>Tax Returns Online Submission</li>
+									<li>Taxpayers’ Personal Accounts including electronic and
+										paper-based documents and payments</li>
+									<li>Payments processing and registering data</li>
+									<li>Cross–checking of submitted e-invoices and data
+										analysis to avoid discrepancies</li>
+									<li>Taxpayers’ Risks Assessment System</li>
+									<li>VAT refund system based on defined criteria</li>
+									<li>CRM (Cash Register Machines) service</li>
+									<li>Notification system</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small blue-bg">
+						<a href="#"> <span class="header">File Online</span> <span>TAX
+								RETURNS ELECTRONIC SUBMISSION SYSTEM </span>
+						</a>
+					</div>
+					<div class="largContent large-blue" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								File Online - <span class="fontsize20">Tax returns
+									electronic submission system</span>
+							</div>
+							<p class="fontsize14 paddingTB30">The system allows taxpayers
+								to fill out forms and submit tax returns online and serves as an
+								interactive portal for enabling communication between taxpayer
+								and State Revenue Committee of RA (SRC). Today developed system
+								provides information about submitted, drafted and completed tax
+								returns (both - electronic and paper-based), payments made,
+								registration data, and sends electronic notifications from SRC.
+								The possibility to register and to cross-combine these reports
+								in the database allows avoiding the possible fraud and report to
+								taxpayer about the inconsistency via notifications either paper
+								or electronic form.</p>
+							<div class="bold fontsize14"> Key features</div>
+							<ul class="portfolio">
+								<li>Draft tax returns</li>
+								<li>Tax returns filling and submission</li>
+								<li>Submitted tax returns review and receipt</li>
+								<li>Taxpayers' notifications</li>
+								<li>News and events</li>
+								<li>Online Feedback form</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small yellow-bg">
+						<a href="#"> <span class="header">E-INVOICE</span><span>new
+								solutions for your business</span>
+						</a>
+					</div>
+					<div class="largContent large-yellow" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								E-INVOICE - <span class="fontsize20">ELECTRONIC INVOICING
+									SYSTEM </span>
+							</div>
+							<p class="fontsize14 paddingTB30">The goal of the project is
+								to provide a set of tools to implement electronic invoicing
+								according to the legislation of the Republic of Armenia. This is
+								a standalone system that enables electronic invoices issuing
+								e-invoices for further analysis and checking to avoid
+								discrepancies. Currently about 8000 organizations and individual
+								entrepreneurs apply the system, and more than 10 million
+								transactions are processed through the system every year.</p>
+							<div class="bold fontsize14">Key features and possibilities
+							</div>
+							<ul class="portfolio">
+								<li>Standalone desktop application</li>
+								<li>User-friendly and simple interface</li>
+								<li>Fast filling and issuing of electronic invoices</li>
+								<li>Browsing and searching for invoices received from other
+									taxpayers</li>
+								<li>Confirming received electronic invoices</li>
+								<li>Canceling issued invoices</li>
+								<li>Importing invoice data from other programs (for further
+									issue)</li>
+								<li>Exporting invoice data in XML, Excel and PDF formats</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small violet-bg">
+						<a href="#"> <span class="header">E-Book</span> <span>customer
+								relationship management</span>
+						</a>
+					</div>
+					<div class="largContent large-purple" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								E-Book - <span class="fontsize20">ELECTRONIC BOOK SYSTEM</span>
+							</div>
+							<p class="fontsize14 paddingTB30">E-book system is a
+								component of e-Invoicing system and enables organizations and
+								individuals to register and keep the books via the Internet.
+								E-books’ registration and their status changes are carried out
+								by completing the appropriate applications, signing and
+								transmitting the applications to the SRC.</p>
+							<div class="bold fontsize14">Key features and possibilities
+							</div>
+							<ul class="portfolio">
+								<li>Filling, signing and submitting applications for
+									e-books’ registration, re-registration and termination</li>
+								<li>Browsing and checking new and draft applications</li>
+								<li>Reviewing and deleting draft applications</li>
+								<li>Exporting applications in PDF formats</li>
+								<li>Managing e-books (adding, editing and canceling
+									entries)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small orange-bg">
+						<a href="#"> <span class="header">CRM</span> <span>GPRS-ENABLED
+								CASH REGISTER MACHINES</span>
+						</a>
+					</div>
+					<div class="largContent large-orange" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								CRM - <span class="fontsize20">GPRS-ENABLED CASH REGISTER
+									MACHINES</span>
+							</div>
+							<div class="large-cont-scroll">
+								<p class="fontsize14 paddingTB30">The goal of this project
+									is to integrate Cash Register Machines (CRM) with central
+									database of State Revenue Committee. The system collects and
+									aggregates data from CRMs and provides various reports to the
+									taxpayers and SRC. The system supports up to 30,000 CRM and
+									currently there are more than 8000 CRMs connected to the
+									system.</p>
+								<div class="bold fontsize14">Basic Functions</div>
+								<ul class="portfolio">
+									<li>Smart and simple interface making easy to learn, use
+										and report</li>
+									<li>Role-based system functionality simplifying operations
+										and maximizing security</li>
+									<li>Different sales mode for different operational models:
+										product, cash, quantity oriented</li>
+									<li>Supporting multiple taxation plans like with or
+										without VAT</li>
+								</ul>
+								<div class="bold fontsize14">Competitive advantages</div>
+								<ul class="portfolio">
+									<li>Online lottery with flexible lottery win planning
+										algorithm encouraging buyers to request for receipt</li>
+									<li>Supporting the requirements of a full POS applications</li>
+									<li>Security based on hardware protection key, all
+										critical information is backed up on WORM fiscal memory and
+										all information exchange is organized by SSL cryptographic
+										protocol</li>
+									<li>Expandability - intergration with national
+										e-Governance systems, by means of national identity cards
+										(MSR, IC, RFID, NFC) and with different electronic systems
+										(from local ATM cards to international Visa and Master cards)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- to do-->
+			<p class="projectTitle" style="display: none;">Offering extensive
+				services encompassing hardware support and maintenance of network
+				infrastructures, IUnetworks has participated in countless IT
+				projects and won a great number of hardware and networking tenders.
+				IUnetworks has a number of long-standing partnerships with leading
+				hardware suppliers, including HP, Cisco, Ericsson, APC and many more
+				and always works to resolve any hardware issues as quickly as
+				possible providing with the best services.</p>
+			<div id="portfolio_sub2_contentDiv"
+				class="widthper100 clearfix subContent" style="display: none">
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small yellow-bg">
+						<a href="#"> <span class="header">ARCA</span><span>ORACLE
+								LICENSES AND NETWORK SOLUTIONS</span>
+						</a>
+					</div>
+					<div class="largContent large-yellow" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								ARCA - <span class="fontsize20">ORACLE LICENSES AND
+									NETWORK SOLUTIONS</span>
+							</div>
+							<p class="fontsize14 paddingTB30">Armenian Card was
+								established by Central Bank of RA and 10 trade banks in March
+								2000 with the goal of establishment and development a new
+								payment system. The Company presents service package which gives
+								an opportunity to banks to issue and acquire ArCa, MasterCard,
+								VISA and American Express cards using the modern technics,
+								technologies and software of the processing centre as well as
+								the Company's professional assistance.</p>
+							<p>
+								<b>Within the framework of tender IUnetwork provided the
+									following services and products:</b>
+							</p>
+							<ul class="portfolio">
+								<li>Computer and networking equipments</li>
+								<li>Oracle licenses</li>
+								<li>Uninterruptible power systems (UPS)</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small darkblue-bg">
+						<a href="#"> <span class="header">UNDP</span><span>NETWORK
+								SOLUTIONS AND SERVICES </span>
+						</a>
+					</div>
+					<div class="largContent large-darkblue" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								UNDP - <span class="fontsize20">NETWORK SOLUTIONS AND
+									SERVICES </span>
+							</div>
+							<p class="fontsize14 paddingTB30">UNDP in Armenia was
+								established in March 1993, and supports the government in
+								meeting its development priorities and the Millennium
+								Development Goals.</p>
+							<p>Within the framework of tender IUnetwork provided the
+								following services and products:</p>
+							<ul class="portfolio">
+								<li>Rack Solutions</li>
+								<li>Servers</li>
+								<li>Routers</li>
+								<li>UPS Batteries</li>
+								<li>Networking devices and accessories</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small red-bg">
+						<a href="#"> <span class="header">VIVACELL</span><span>COMPUTER
+								AND OPTICAL EQUIPMENTS</span>
+						</a>
+					</div>
+					<div class="largContent large-red" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								VIVACELL - <span class="fontsize20">COMPUTER AND OPTICAL
+									EQUIPMENTS</span>
+							</div>
+							<p class="fontsize14 paddingTB30">VivaCell-MTS is an
+								Armenia’s leading mobile operator offering innovative mobile
+								voice and data products and services, and tailored solutions for
+								different market segments. The VivaCell's network provides a
+								capacity to serve over 2.5 million subscribers and has become
+								the choice of remote mountainous villagers, housewives, youth,
+								middle-class as well as traveling business people.</p>
+							<p>
+								<b>Within the framework of tender IUnetwork provided the
+									following services and products:</b>
+							</p>
+							<ul class="portfolio">
+								<li>Computers</li>
+								<li>Monitors</li>
+								<li>Printers</li>
+								<li>Servers</li>
+								<li>UPS Batteries</li>
+								<li>Optical equipments and more</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small violet-bg">
+						<a href="#"> <span class="header">South Caucasus
+								Railway</span><span>NETWORK SOLUTIONS AND SERVICES </span>
+						</a>
+					</div>
+					<div class="largContent large-violet" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								South Caucasus Railway - <span class="fontsize20">NETWORK
+									SOLUTIONS AND SERVICES </span>
+							</div>
+							<p class="fontsize14 paddingTB30">Joint-Stock Company "SCR"
+								is 100 % Open Society affiliated company of Public Corporation
+								"Russian railways". The company carries out the following kinds
+								of activity: freight traffic, passenger transportations in the
+								distant traffic, passenger transportations in the suburban
+								traffic, granting infrastructure services, granting locomotive
+								draught services, rolling stock repair, infrastructure object
+								building,maintenance of social sphere.</p>
+							<p>Within the framework of tender IUnetwork provided the
+								following services and products:</p>
+							<ul class="portfolio">
+								<li>Rack Solutions</li>
+								<li>Servers</li>
+								<li>Switches</li>
+								<li>Routers</li>
+								<li>UPS Batteries</li>
+								<li>Networking devices and accessories</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small green-bg">
+						<a href="#"> <span class="header">UCOM</span><span>NETWORK
+								SOLUTIONS AND COMPUTER EQUIPMENTS</span>
+						</a>
+					</div>
+					<div class="largContent large-green" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								UCOM - <span class="fontsize20">NETWORK SOLUTIONS AND
+									COMPUTER EQUIPMENTS</span>
+							</div>
+							<p class="fontsize14 paddingTB30">Ucom builds the biggest new
+								generation fiber-optic network in Armenia and always put an
+								emphasis on creating a strong network to make it possible for
+								each and every Armenian to benefit the best quality service with
+								an affordable price.</p>
+							<p>
+								<b>Within the framework of tender IUnetwork provided the
+									following services and products:</b>
+							</p>
+							<ul class="portfolio">
+								<li>Computers</li>
+								<li>Monitors</li>
+								<li>Printers</li>
+								<li>Ink Cartridges</li>
+								<li>IP-Phones</li>
+								<li>Servers</li>
+								<li>Rack Solutions</li>
+								<li>Servers</li>
+								<li>Routers</li>
+								<li>UPS Batteries</li>
+								<li>Optical equipments</li>
+								<li>Networking devices and accessories</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small orange-bg">
+						<a href="#"> <span class="header">ProCredit Bank
+								Armenia</span><span>NETWORK SOLUTIONS AND SERVICES</span>
+						</a>
+					</div>
+					<div class="largContent large-orange" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								ProCredit Bank Armenia - <span class="fontsize20">NETWORK
+									SOLUTIONS AND SERVICES</span>
+							</div>
+							<p class="fontsize14 paddingTB30">ProCredit Bank is a
+								development-oriented full-service bank offering customer service
+								to private individuals and enterprises. By offering simple and
+								accessible deposit facilities and other banking services and by
+								investing substantial resources in financial education ProCredit
+								Bank promotes a culture of savings and responsibility which can
+								help to bring greater stability and security to ordinary
+								households.</p>
+							<p>
+								<b>Within the framework of tender IUnetwork provided the
+									following services and products:</b>
+							</p>
+							<ul class="portfolio">
+								<li>Rack Solutions</li>
+								<li>Servers</li>
+								<li>Routers</li>
+								<li>Storages</li>
+								<li>UPS Batteries</li>
+								<li>Networking devices and accessories</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="portfolio-item">
+					<div class="smallContent portfolio-small blue1-bg">
+						<a href="#"> <span class="header">State Revenue
+								Committee of RA</span><span>NETWORK SOLUTIONS AND EQUIPMENTS</span>
+						</a>
+					</div>
+					<div class="largContent large-blue1" style="display: none;">
+						<div class="padding30">
+							<div class="fontsize40 bold">
+								State Revenue Committee of RA - <span class="fontsize20">NETWORK
+									SOLUTIONS AND COMPUTER EQUIPMENTS</span>
+							</div>
+							<p class="fontsize14 paddingTB30">RA State Revenue Committee
+								by the Government is a republican body of executive authority,
+								which in line with its competences provides for State budget
+								revenue collection and tax and customs administration.</p>
+							<p>Within the framework of tender IUnetwork provided the
+								following services and products:</p>
+							<ul class="portfolio">
+								<li>Computers</li>
+								<li>Monitors</li>
+								<li>Printers</li>
+								<li>Ink Cartridges</li>
+								<li>Servers</li>
+								<li>Rack Solutions</li>
+								<li>Servers</li>
+								<li>Routers</li>
+								<li>UPS Batteries</li>
+								<li>Optical equipments</li>
+								<li>Networking devices and accessories</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="submenu-vertical">
+				<a href="#" id="portfolio_sub1_vertical" class="products current"></a>
+				<a href="#" id="portfolio_sub2_vertical" class="projects"></a>
+
+			</div>
+		</div>
+		<!-- End portfolio -->
+
+		<!-- Start Contacts -->
+		<div id="contactsDiv" class="inner-page light-grey-bord">
+			<h2 menuItem="contacts">Contacts</h2>
+			<div class="clearfix">
+
+				<div class="fleft width700">
+					<form action="#" style="width: 330px;">
+						<div class="form-item clearfix">
+							<label>Address:</label> <span>Sayat-Nova Ave. 40/1,
+								Yerevan, RA</span>
+						</div>
+						<div class="separator" style="margin: 5px 0px;"></div>
+						<div class="form-item clearfix">
+							<label>Phone:</label> <span>(+374 11) 50-06-50</span>
+						</div>
+						<div class="separator" style="margin: 5px 0px;"></div>
+
+					</form>
+					<div id="map-canvas"
+						style="height: 301px; width: 571px; border: 1px solid #6E6E6E; margin-top: 30px;">
+					</div>
+				</div>
+				<!-- 
+                <div class="fleft">
+                	<h3>apply form</h3>
+                    
+                    <form action="#" name="#">
+                    	<div class="form-item clearfix">
+                        	<label>Name</label>
+                            <input type="text" class="input-text" />
+                        </div>
+                        <div class="form-item clearfix">
+                        	<label>Email</label>
+                            <input type="text" class="input-text" />
+                        </div>
+                        <div class="form-item clearfix">
+                        	<label>Subject</label>
+                            <input type="text" class="input-text" />
+                        </div>
+                        <div class="form-item clearfix">
+                        	<label>Message</label>
+                            <textarea name="" rows="" cols=""></textarea>
+                        </div>
+                        <div class="form-item clearfix">
+                        	<label>&nbsp;</label>
+                            <input type="button" value="SEND" />
+                        </div>
+                    </form>
+                </div>
+				-->
+			</div>
+
+
+		</div>
+
+		<!-- End Contacts -->
+
+		<!-- Start Footer -->
+		<div id="footer" class="inner-page grey-bord clearfix">
+			<div class="fright">
+				<div class="socials">
+					FIND US ON: <a href="https://www.facebook.com/IUnetworks"
+						class="fb" target="_blank">facebook</a> <a
+						href="https://twitter.com/IUNetworks" class="twitter"
+						target="_blank">twitter</a> <a
+						href="http://www.linkedin.com/company/253982?trk=tyah&trkInfo=tas%3AIUnetw%2Cidx%3A1-1-1"
+						class="linkedin" target="_blank">linkedin</a>
+				</div>
+				<div class="footer-menu">
+					<a href="#" name="about">about us</a> <a href="#" name="partners">partners</a>
+					<a href="#" name="services">services</a> <a href="#"
+						name="portfolio">portfolio</a> <a href="#" name="contacts">contacts</a>
+				</div>
+			</div>
+			<div class="fleft">
+				<img class="block paddinTB15" src="images/logo_footer.png"
+					width="228" height="54" alt="logo" />
+				<div class="copyright">“IU NETWORKS” LLC 2013. All Rights
+					Reserved</div>
+			</div>
+		</div>
+		<!-- End Footer -->
+	</div>
+	<!-- End outer-wrapper -->
+</body>
+</html>
