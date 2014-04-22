@@ -30,7 +30,7 @@ var IU = {
 		IU.registerTopMenu();
 		IU.registerLayoutCorrections();
 		IU.registerNavigationMenus();
-		IU.registerLeftMenuArrows();
+		IU.registerLetMenuArrows();
 		IU.registerScrollHandling();
 		IU.registerMasonry();
 		IU.registerLoginBox();
@@ -40,7 +40,7 @@ var IU = {
 		IU.initialized = true;
 	},
 	
-	registerLeftMenuArrows :function(){
+	registerLetMenuArrows :function(){
 		$( '#leftMenu ul li' ).each(function() {
 			if($(this).children('ul').length > 0){
 				$(this).addClass('arrow-right');
@@ -72,9 +72,9 @@ var IU = {
 			$('#rightMobileMenuList li ul').parent('li').addClass('arrow-right');
 		}
 	},
-
+	
 	registerTopMenu : function() {
-		if (!jQuery.browser.mobile) {
+		if (jQuery.browser.mobile) {
 			// IU.menuList = 'rightMobileMenuList';
 			$('#topMenu').hide();
 			$('#topMobileMenu').show();
@@ -105,13 +105,12 @@ var IU = {
 			$('body').addClass('disable_body');
 			$('#outer-wrapper').addClass('disable_wrapper');
 			$('#leftMenu').css({
-			    'overflow': 'scroll'
+			    'overflow-x': 'scroll'
 			});
 			//$('#topMobileMenu').css('position', 'absolute');
 		}else{
 			$('#outer-wrapper').removeClass('disable_wrapper');
 			$('body').removeClass('disable_body');
-			//$('#topMobileMenu').css('position', 'fixed');
 		}
 	},
 	
@@ -149,8 +148,32 @@ var IU = {
 				    'overflow': 'scroll'
 				});
 				IU.registerBodyScrolling();
-				e.preventDefault();
 				IU.closeSubItemLeftMenu();
+				e.stopPropagation();
+			});
+			
+			$('#leftMenu').click(function(event){
+			    event.stopPropagation();
+			});
+			
+			$('#showMobileMenuButton').click(function(event){
+			    event.stopPropagation();
+			});
+			
+			$('document.body').click(function(event){
+			    event.stopPropagation();
+			});
+			
+			$('#outer-wrapper').click(function(e) {
+				if($('#leftMenu').hasClass('cbp-spmenu-open')){
+					var menuLeft = document.getElementById('leftMenu');
+					$('#showMobileMenuButton').removeClass('active');
+					classie.toggle(document.body, 'cbp-spmenu-push-toright');
+					classie.toggle(menuLeft, 'cbp-spmenu-open');
+					$('#outer-wrapper').removeClass('disable_wrapper');
+					$('body').removeClass('disable_body');
+					IU.closeSubItemLeftMenu();
+				}
 			});
 			
 			$('#horizontalMenu > li').on('mouseover', function() {

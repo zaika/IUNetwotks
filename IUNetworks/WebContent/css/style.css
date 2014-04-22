@@ -385,12 +385,14 @@ textarea {
 .menu-mobile-top {
 	background:url(../images/menu_bg.png) repeat-x;
 	z-index:1;
-	width:100%;
 	max-width:980px;
+	min-width:420px;
+	width:100%;
 	top:0px;
 	position:fixed;
 	padding:10px;
-	}
+	height:70px
+}
 
 .menu {
 	padding-top:17px;}	
